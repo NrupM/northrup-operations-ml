@@ -1,7 +1,5 @@
 # NorthrupOperationsML: Insurance Workflow Intelligence Platform
 
-![NorthrupOperationsML](https://api.placeholder.com/380/200?text=NorthrupOperationsML)
-
 A cutting-edge AI agent system designed to streamline insurance operations, automate renewal workflows, and provide intelligent insights for Northrup Corporation's insurance business.
 
 ## 🤖 Overview
