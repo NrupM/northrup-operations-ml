@@ -20,6 +20,10 @@ This file documents recurring patterns and standards used in the project.
   - Next.js for server-side rendering
   - React Query for data fetching
   - shadcn/ui for component library
+  - Semantic CSS classes for styling:
+    * Component-specific classes
+    * Reusable utility classes
+    * CSS variables for theming
 * Backend Integration:
   - Supabase for backend services
   - Zod for runtime type validation

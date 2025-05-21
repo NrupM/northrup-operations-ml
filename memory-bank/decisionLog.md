@@ -20,3 +20,23 @@ This file records architectural and implementation decisions using a list format
 * Used nvm to install and switch to Node.js v18.19.1
 * Package.json specifies Next.js 15.3.2 and React 19
 * Development scripts defined in package.json for standardized commands
+[2025-05-21 19:32:14] - CSS Framework Change
+
+## Decision
+
+* Switched from Tailwind CSS to Regular CSS
+* Removed Tailwind configuration
+* Implemented semantic CSS classes
+
+## Rationale
+
+* Simplified styling approach
+* Better maintainability with semantic class names
+* Direct control over styles without utility classes
+
+## Implementation Details
+
+* Removed postcss.config.mjs
+* Created semantic CSS classes in globals.css
+* Updated component styling to use new CSS classes
+* Maintained consistent visual design while improving code readability
