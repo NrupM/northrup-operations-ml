@@ -19,6 +19,7 @@ NorthrupAgentAI transforms traditional insurance workflows by implementing a mul
 ## 🛠️ Technology Stack
 
 ### Frontend
+
 - **Next.js 14** - App Router & React Server Components
 - **React** - UI library
 - **TypeScript** - Type safety
@@ -28,6 +29,7 @@ NorthrupAgentAI transforms traditional insurance workflows by implementing a mul
 - **Tanstack Query** - Data fetching and caching
 
 ### AI & Backend
+
 - **LangChain.js / LangGraph** - Agent workflows and orchestration
 - **Claude API** - Core reasoning and NLP tasks
 - **Supabase + pgvector** - Vector database for semantic search
@@ -36,6 +38,7 @@ NorthrupAgentAI transforms traditional insurance workflows by implementing a mul
 - **PostgreSQL** - Relational database
 
 ### DevOps & Monitoring
+
 - **Langfuse** - AI observability
 - **Vercel** - Deployment platform
 - **GitHub Actions** - CI/CD
@@ -78,56 +81,67 @@ northrup-operations-ml/
 ### Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/your-username/northrup-operations-ml.git
    cd northrup-operations-ml
    ```
 
 2. Install pnpm (if not already installed):
+
    ```bash
    npm install -g pnpm
    ```
 
 3. Install dependencies:
+
    ```bash
    pnpm install
    ```
 
 4. Set up environment variables:
+
    ```bash
    cp .env.example .env.local
    # Edit .env.local with your API keys and database connection info
    ```
 
 5. Run database migrations:
+
    ```bash
    pnpm dlx prisma migrate dev
    ```
 
 6. Start the development server:
+
    ```bash
    pnpm dev
    ```
 
-6. Visit `http://localhost:3000` to view the application
+7. Visit `http://localhost:3000` to view the application
 
 ## 🔄 AI Agent Architecture
 
 NorthrupAgentAI implements a sophisticated multi-agent system:
 
 ### Document Analysis Agent
+
 Processes insurance documents, extracts policy information, and converts unstructured data into structured formats.
 
 ### Renewal Priority Agent
+
 Analyzes client data, renewal dates, and business value to prioritize renewal tasks for insurance staff.
 
 ### Communication Agent
+
 Drafts personalized client communications, suggests follow-up strategies, and analyzes client responses.
 
 ### Policy Comparison Agent
+
 Compares insurance policies, identifies coverage gaps, and suggests optimal coverage options.
 
 ### Orchestration Engine
+
 Coordinates agent activities, manages workflows, and ensures cohesive system operation.
 
 ## 📊 Dashboard Features
@@ -139,26 +153,6 @@ The system provides comprehensive dashboards for insurance professionals:
 - **Document Analytics**: Insights extracted from insurance documents
 - **Agent Performance Metrics**: Tracking of AI system effectiveness
 - **Task Automation**: One-click workflow automation
-
-## 📝 Development Roadmap
-
-### Phase 1: Foundation (Weeks 1-2)
-- [x] Project setup and infrastructure
-- [x] Basic agent implementation
-- [ ] Core database schema design
-- [ ] Document analysis pipeline
-
-### Phase 2: Advanced Agents (Weeks 3-5)
-- [ ] Renewal prioritization agent
-- [ ] Client communication agent
-- [ ] Agent orchestration system
-- [ ] RAG implementation for insurance knowledge
-
-### Phase 3: Enterprise Features (Weeks 6-8)
-- [ ] Multi-agent workflows
-- [ ] Advanced analytics dashboard
-- [ ] Performance optimization
-- [ ] User acceptance testing
 
 ## 🧪 Testing
 
